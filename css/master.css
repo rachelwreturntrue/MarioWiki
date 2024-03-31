@@ -1,0 +1,520 @@
+
+h1{
+    font-family: 'New Super Mario Font U', sans-serif;
+    color:white;
+}
+p {
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+    font-size:30px;
+}
+h2 {
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: white;
+}
+
+
+#seemore{
+    color:black;
+}
+
+#seemore {
+    color: black;
+}
+
+#seemore {
+    color: black;
+}
+
+#best {
+    background-color: red;
+    border-radius: 4px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FF0000;
+    padding: 1em;
+    color: black;
+}
+
+#best1 {
+    background-color: darkgreen;
+    border-radius: 4px;
+    max-width: fit-content;
+    padding: 10px;
+    font-size: 50px;
+}
+
+#best2 {
+    background-color: black;
+    border-radius: 4px;
+    max-width: fit-content;
+    padding: 10px;
+    color: red
+}
+
+#best3 {
+    background-color: darkgreen;
+    border-radius: 4px;
+    max-width: fit-content;
+    padding: 10px;
+    color: white;
+    font-size: 20px
+}
+
+.column1 {
+    background-size: contain;
+    float: left;
+    padding: 10px;
+    width: 30%;
+    margin: .3%;
+    border: 2px solid red;
+    @media (max-width: 1400px) and (min-width: 1301px) {
+        width: 600px;
+    }
+
+    @media (max-width:1300px) and (min-width: 1051px){
+        width: 1000px;
+    }
+
+    @media (max-width: 1050px) and (min-width: 551px) {
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+}
+
+.column2 {
+    background-color: red;
+    background-size: contain;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: .3%;
+    border: 2px solid red;
+
+    @media (max-width: 1400px) and (min-width: 1301px) {
+        width: 600px;
+    }
+
+    @media (max-width:1300px) and (min-width: 1051px){
+        width: 1000px;
+    }
+
+    @media (max-width: 1050px) and (min-width: 551px){
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+}
+
+.column3 {
+    padding: 20px;
+    float: left;
+    background-size: cover;
+    width: 10%;
+    margin: .3%;
+    height: 20%;
+    border: 2px solid red;
+    @media (max-width: 1500px){
+        width: 170px;
+    }
+
+    @media (max-width: 1050px) and (min-width: 551px){
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+
+}
+
+.column4 {
+
+    width: 20%;
+    float: left;
+    background-size: fill;
+    margin: .3%;
+    border: 2px solid red;
+    overflow: hidden;
+    @media (max-width: 1050px) and (min-width: 551px){
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+}
+
+.columnone {
+    padding: 30px;
+    float: right;
+    width: 19%;
+    height: 500px;
+    margin: .3%;
+    background-size: contain;
+    border: 2px solid red;
+
+    @media (max-width: 1050px) and (min-width: 551px){
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+}
+
+.columntwo {
+    padding: 20px;
+    width: 40%;
+    float: right;
+    margin: .3%;
+    border: 2px solid red;
+
+    @media (max-width: 1050px) and (min-width: 551px){
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+
+}
+
+.columnthree {
+    padding: 20px;
+    float: right;
+    background-size: cover;
+    width: 19%;
+    height: 500px;
+    margin: .3%;
+    border: 2px solid red;
+
+    @media (max-width: 1050px) and (min-width: 551px){
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+}
+
+.columnfour {
+    padding: 20px;
+    float: right;
+    background-size: cover;
+    width: 19%;
+    height: 500px;
+    margin: .3%;
+    border: 2px solid red;
+
+    @media (max-width: 1050px) and (min-width: 551px){
+        width: 500px;
+    }
+
+    @media (max-width: 550px) {
+        width: 350px;
+    }
+}
+
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    font-family: 'New Super Mario Font U', sans-serif;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 80%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+.button1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    font-family: 'New Super Mario Font U', sans-serif;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 80%;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+    .button1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .button1 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .button1:hover span {
+        padding-right: 25px;
+    }
+
+        .button1:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+.button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    font-family: 'New Super Mario Font U', sans-serif;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 80%;
+                    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+                
+    .button2 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .button2 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+                
+    .button2:hover span {
+        padding-right: 25px;
+    }
+                
+        .button2:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+/*form start*/
+#formhead{
+    font-size: 60px;
+}
+.top{
+    text-align: center;
+    margin: 10 px;
+    border-radius: 8px;
+    color: white;
+    background-color: darkgreen;
+    height:200px;
+}
+
+.container2{
+    border-radius: 4px;
+    color:white;
+    background-color: #f4511e;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'New Super Mario Font U', sans-serif;
+
+}
+
+/* timeline start */
+
+#head{
+    font-size: 80px;
+    background-color: darkgreen;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#bracket{
+    width:70%;
+}
+/* forum start */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+    color: #FF0042;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+#one{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+b{
+    color:#FFFFFF;
+}
+
+
+    
+
+
+
+/* home.html */
+
+.container1{
+    margin: 20px;
+    padding: 20px;
+}
+
+.subforum{
+    margin-top: 20px;
+}
+
+
+.subforum-title{
+    font-size: 30px;
+    background-color: #292B2E;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.subforum-description *{
+    margin-block: 0;
+}
+
+.subforum-info{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+
+.subforum-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+    @media (max-width: 1000px){
+        grid-template-columns: 30% 60%;
+    }
+}
+
+.subforum-column{
+    padding:10px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: #111314;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* for phone */
+
+
+
+
+/* search box */
+.search-box{
+    border:solid 1px green;
+    margin-top: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1xp 2px 3px green;
+    background: green;
+    border-radius: 4px;
+}
+
+.search-box select{
+    padding: 10px;
+}
+
+.search-box input{
+    padding: 10px;
+}
+
+.search-box button{
+    padding: 10px;
+    background-color: white;
+}
+
+.search-box button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 1px 2px 3px white;
+}
+
+/* forum info */
+.forum-info{
+    padding: 20px;
+    background-color: #292B2E;
+}
+
