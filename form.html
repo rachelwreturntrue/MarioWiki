@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" contents="'width=device-width, initial-scale=1.0">
+    <title>Mario Forum</title>
+</head>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/new-super-mario-font-u');
+    @import "css/master.css";
+    body {
+            background-image: url(./images/form_bg.png); 
+            background-size: cover;
+        }
+</style>
+<body>
+    <header>
+        <div class="top center" >
+            <p id="formhead">Choose your favorites!</p>
+        </div>
+    </header>
+
+    <div class="container2 center">
+        <form name="myForm" action="index.html" onsubmit="return validateForm()" method="post" required>
+            Name: <input type="text" name="fname">
+            <br>
+            <br>
+            Enemy: <input type="text" name="fenemy">
+            <br>
+            <br>
+            Hero: <input type="text" name="fhero">
+            <br>
+            <br>
+            Game: <input type="text" name="fgame">
+            <br>
+            <br>
+            Boss: <input type="text" name="fboss">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
